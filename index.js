@@ -102,7 +102,7 @@ const BOT_TOKEN = process.env.bot; // put your bot token here
                                 await client.sendFile(chatID, {
                                     file: filePath,
                                     caption: fileName,
-                                    workers: 4,
+                                    workers: 8,
                                     thumb: "./thumbnail/thumbnail.jpg",
                                     attributes: [
                                         new Api.DocumentAttributeVideo({
